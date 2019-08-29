@@ -3,8 +3,9 @@ import Header from './components/header/header';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <Header/>
+      <p>Something here</p>
     </div>
   );
 }

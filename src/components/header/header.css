@@ -1,12 +1,27 @@
 .header-component {
+  margin: 0;
+  background: #E8F9FD;
+}
+.header-wrapper {
   box-sizing: border-box;
   display: flex;
   height: 100vh;
   margin: auto;
   width: 100vw;
 }
-
-.header-tagline {
+.header-content {
   margin: auto;
   text-align: center;
+  z-index: 2;
+}
+
+.header-logo {  
+  display: inline-block;
+  height: 50vmin;
+  left: calc( 50% - 25vmin );
+  opacity: 0.05;
+  position: absolute;
+  z-index: 1;
+  top: calc( 50% - 25vmin );
+  filter: grayscale(20%);
 }
