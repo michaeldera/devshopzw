@@ -1,0 +1,12 @@
+.header-component {
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  width: 100vw;
+}
+
+.header-tagline {
+  margin: auto;
+  text-align: center;
+}
