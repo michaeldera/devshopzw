@@ -1,13 +1,12 @@
 .header-component {
   margin: 0;
-  background: #E8F9FD;
+  background: #eee;
 }
 .header-wrapper {
   box-sizing: border-box;
   display: flex;
   height: 100vh;
-  margin: auto;
-  width: 100vw;
+  width: 100%;
 }
 .header-content {
   margin: auto;
