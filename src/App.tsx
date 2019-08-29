@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './components/header/header';
+import Home from './pages/home/home';
+
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Header/>
-      <p>Learn more</p>
-    </div>
+    <>
+    <Home/>
+    </>
   );
 }
 
