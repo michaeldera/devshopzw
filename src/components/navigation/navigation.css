@@ -1,4 +1,18 @@
 .navigation-component {
   position:sticky;
   top: 0px;
+  padding: .2rem 1.4rem;
+  border-bottom: 1px solid #000;
+}
+
+.navigation-company-name {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.navigation-logo {
+  box-sizing: border-box;
+  float: left;
+  height:2.4rem;
+  padding: 0 .2rem;
 }

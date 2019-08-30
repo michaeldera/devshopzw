@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../../components/header/header';
-import Navigation from '../../components/navigation/navigation';
+import CustomersSection from './sections/customers-section/customers-section';
 
 
 const Home: React.FunctionComponent = () => {
   return (
     <React.Fragment>
       <Header/>
-      <Navigation/>
+      <CustomersSection/>
       <div style={{height: "200vh"}}></div>
     </React.Fragment>
   );
