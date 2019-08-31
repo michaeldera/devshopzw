@@ -22,5 +22,5 @@
   position: absolute;
   z-index: 1;
   top: calc( 50% - 25vmin );
-  filter: grayscale(20%);
+  filter: grayscale(10%);
 }

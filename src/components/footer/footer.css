@@ -1,0 +1,15 @@
+.footer-component {
+  margin: 0;
+  background: #eee;
+}
+.footer-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.footer-content {
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+}

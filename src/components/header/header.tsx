@@ -3,7 +3,7 @@ import "./header.css";
 import devshop from "./../../assets/logo.svg"
 
 
-const Header: React.FunctionComponent = () => {
+const Header = () => {
   return (
     <header className="header-component">
       <div className="header-wrapper">
