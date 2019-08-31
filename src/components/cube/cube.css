@@ -1,0 +1,50 @@
+.cube-wrapper {
+  width: 250px;
+  height: 213px;
+  margin: 20px auto;
+  background-color: #EEE;
+}
+.cube {
+  width: 112px;
+  height: 112px;
+  top: 50px;
+  transform-style: preserve-3d;
+  transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+  margin: auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+}
+.cube > div {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  width: 112px;
+  height: 112px;
+  float: left;
+  overflow: hidden;
+  opacity: 0.85;
+}
+.cube-face-one {
+  transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #FFF;
+}
+.cube-face-two {
+  transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #ffaf1c;
+}
+.cube-face-three {
+  transform: translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #58d568;
+}
+.cube-face-four {
+  transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #ed3030;
+}
+.cube-face-five {
+  transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #1c5ffe;
+}
+.cube-face-six {
+  transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+  background-color: #f2f215;
+}
