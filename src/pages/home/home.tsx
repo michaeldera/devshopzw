@@ -5,11 +5,13 @@ import Footer from '../../components/footer/footer';
 
 
 const Home = () => {
+
   return (
     <React.Fragment>
       <Header/>
       <CustomersSection/>
-      <div style={{height: "200vh"}}></div>
+      <div style={{height: "200vh"}}>
+      </div>
       <Footer/>
     </React.Fragment>
   );

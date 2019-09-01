@@ -1,12 +1,10 @@
 .cube-wrapper {
-  width: 250px;
+  width: 200px;
   height: 213px;
   margin: 20px auto;
-  background-color: #EEE;
+  position: absolute;
 }
 .cube {
-  width: 112px;
-  height: 112px;
   top: 50px;
   transform-style: preserve-3d;
   transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
@@ -18,33 +16,50 @@
 .cube > div {
   position: absolute;
   transition: all 0.5s ease-in-out;
-  width: 112px;
-  height: 112px;
   float: left;
   overflow: hidden;
-  opacity: 0.85;
+  background-color:#21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 .cube-face-one {
-  transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #FFF;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  
 }
 .cube-face-two {
-  transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #ffaf1c;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  
 }
 .cube-face-three {
-  transform: translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #58d568;
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
 }
 .cube-face-four {
-  transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #ed3030;
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
 }
 .cube-face-five {
-  transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #1c5ffe;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
 }
 .cube-face-six {
-  transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-  background-color: #f2f215;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+
+/*Rotation scripts */
+
+.cube {
+  animation: rotate-cube infinite;
+  animation-duration: 20s
+}
+@keyframes rotate-cube {
+  0%   {  transform: rotateX(-38deg) rotateY(-38deg) rotateZ(0deg);   }
+  50%   { transform: rotateX(-238deg) rotateY(-238deg) rotateZ(0deg);  }
+  100%   {    transform: rotateX(-398deg) rotateY(-398deg) rotateZ(0deg);  }
 }
