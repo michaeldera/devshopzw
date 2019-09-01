@@ -20,7 +20,7 @@ const Header = () => {
         <img className="header-logo" src={devshop} alt="Devshop Logo" />
         <div className="header-content">
           <h1 className="header-tagline">Are you building software? We can help.</h1>
-          <p>See how</p>
+          <p>See how</p> 
         </div>
       </div>
     </header>
