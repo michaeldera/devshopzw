@@ -47,7 +47,7 @@ const Cube = ( props: any) => {
   }
 
   return (
-    <div className="cube-component">
+    <figure className="cube-component">
       <div className="cube-wrapper" style={position}>
         <div className="cube" style={cubeStyle}>
           <div className="cube-face-one" style={face_one}></div>
@@ -58,7 +58,7 @@ const Cube = ( props: any) => {
           <div className="cube-face-six" style={face_six}></div>
         </div>
       </div>
-    </div>
+    </figure>
   )
 }
 
