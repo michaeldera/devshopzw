@@ -1,7 +1,7 @@
 .cube-wrapper {
   width: 200px;
   height: 213px;
-  margin: 20px auto;
+  margin:auto;
   position: absolute;
 }
 .cube {
