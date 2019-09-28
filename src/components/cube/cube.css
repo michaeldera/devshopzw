@@ -3,6 +3,7 @@
   height: 213px;
   margin:auto;
   position: absolute;
+  box-shadow: #000;
 }
 .cube {
   top: 50px;

@@ -4,10 +4,13 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer-component">
-      <div className="footer-wrapper">
+      <div className="footer-content-wrapper">
         <div className="footer-content">
-          <h1 className="footer-call-to-action">Call Us?</h1>
+          <h1 className="footer-call-to-action">Start Building Today</h1>
         </div>
+      </div>
+      <div className="footer-navigation">
+        <small>Terms of Service</small>
       </div>
     </footer>
   )

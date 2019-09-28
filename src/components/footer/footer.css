@@ -2,7 +2,7 @@
   margin: 0;
   background: #eee;
 }
-.footer-wrapper {
+.footer-content-wrapper {
   box-sizing: border-box;
   display: flex;
   height: 100vh;
@@ -12,4 +12,9 @@
   margin: auto;
   text-align: center;
   z-index: 2;
+}
+
+.footer-navigation {
+  font-size: 12px;
+  padding: 2px 10%;
 }
