@@ -1,6 +1,7 @@
 .header-component {
   margin: 0;
-  background: #fff;
+  background: #222;
+  color: #fff;
 }
 .header-wrapper {
   box-sizing: border-box;
@@ -15,12 +16,13 @@
 }
 .header-tagline {
   line-height: 1.2;
+  color: #fff;
 }
 .header-logo {  
   display: inline-block;
   height: 50vmin;
   left: calc( 50% - 25vmin );
-  opacity: 0.05;
+  opacity: 0;
   position: absolute;
   z-index: 9;
   top: calc( 50% - 25vmin );
