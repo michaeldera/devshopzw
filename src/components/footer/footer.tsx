@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-navigation">
-        <small>Terms of Service</small>
+        <small>Made with Love | Devshop</small>
       </div>
     </footer>
   )
