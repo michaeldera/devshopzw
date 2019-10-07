@@ -21,7 +21,7 @@ const Header = () => {
       <div className="header-wrapper">
         <img className="header-logo" src={devshop} alt="Devshop Logo" />
         <div className="header-content">
-          <h1 className="header-tagline">Building software? We can help.</h1>
+          <h1 className="header-tagline">Software. For Everyone.</h1>
         </div>
       </div>
     </header>
