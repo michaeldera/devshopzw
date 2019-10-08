@@ -16,3 +16,13 @@ body {
 .wrapper {
   padding: 8rem 5rem;
 }
+
+.action-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0496FF;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 30px auto;
+  border-radius: 50vh;
+}
