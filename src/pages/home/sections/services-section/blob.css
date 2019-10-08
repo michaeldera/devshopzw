@@ -1,0 +1,21 @@
+.services-blob {
+  margin: 30px auto; 
+  display:block;
+  width: fit-content;
+}
+
+.blog-image {
+  display: block;
+  right:0px;
+  width:26rem;
+  min-width: 300px;
+}
+
+.blob-solid {
+  display:block;
+  position: absolute;
+  z-index: -1;
+  height: auto;
+  width:29rem;
+  min-width: 340px;
+}

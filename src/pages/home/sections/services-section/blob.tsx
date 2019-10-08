@@ -1,4 +1,5 @@
 import React, { CSSProperties } from 'react';
+import './blob.css';
 import bg from './collaborate.jpg'
 import bgBlob from "./blob.svg"
 
@@ -7,28 +8,11 @@ const style: CSSProperties ={
   display:"block"
 }
 
-const blobStyle: CSSProperties = {
-  display:"block",
-  position: "absolute",
-  zIndex: -1,  
-  height: "auto",
-  width:"29rem",
-  minWidth: 340,
-}
-
-const blobImage: CSSProperties ={
-  display:"block",
-  right:0,
-  width:"26rem",
-  minWidth: 300,
-}
-
-
 const ServicesBlob: React.FunctionComponent = () => {
   return (
     <div style={style} className="services-blob">
-      <img style={blobStyle} src={bgBlob} alt=""/>
-      <svg style={blobImage} viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+      <img className="blob-solid" src={bgBlob} alt=""/>
+      <svg className="blog-image" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="bg" patternUnits="userSpaceOnUse" x="350" y="280" width="700" height="500">
             <image href={bg} width="700" height="500" />
