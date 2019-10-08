@@ -50,3 +50,19 @@
   margin:auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .services-wrapper {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .services-card {
+    grid-template-columns: 1fr 1fr;
+  }
+} 
+
+@media only screen and (max-width: 480px) {
+  .services-card {
+    grid-template-columns: 1fr;
+  }
+}
