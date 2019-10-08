@@ -26,7 +26,7 @@ const CustomersSection: React.FunctionComponent = () => {
   return (
     <section className="customers-component">
     <div className="customers-wrapper wrapper">
-      <h1 className="section-heading">You'll be in good company.</h1>
+      <h1 className="section-heading">You are in good company.</h1>
       <p>Many companies already trust the Devshop to deliver their software needs</p>
       <div className="customer-logos-grid">
         {clients.map( client => (
