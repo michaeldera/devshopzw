@@ -25,3 +25,32 @@
   display: block;
   margin: auto;
 }
+
+.customers-blob {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right:0;
+}
+
+@media only screen and (max-width: 1024px) { 
+  .customer-logos-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 40px 0;
+  }
+}
+
+
+@media only screen and (max-width: 764px) { 
+  .customer-logos-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 648px) { 
+  .customer-logos-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 0;
+  }
+}

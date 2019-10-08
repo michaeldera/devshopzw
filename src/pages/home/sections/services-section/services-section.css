@@ -51,6 +51,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .services-component {
+    text-align: center;
+  }
+
   .services-wrapper {
     grid-template-columns: 1fr;
     padding: 1rem;
