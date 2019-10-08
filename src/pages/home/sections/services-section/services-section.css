@@ -1,0 +1,9 @@
+.services-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin:0;
+}
+
+.services-grid-item {
+  padding:0 20px 0 0;
+}
