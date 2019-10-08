@@ -14,7 +14,6 @@ const blobStyle: CSSProperties = {
   height: "auto",
   width:"29rem",
   minWidth: 340,
-
 }
 
 const blobImage: CSSProperties ={
