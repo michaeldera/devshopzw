@@ -9,6 +9,10 @@ body {
   color: #333;
 }
 
+.section-heading{
+  line-height: 1.4
+}
+
 .wrapper {
   padding: 8rem 5rem;
 }
