@@ -12,8 +12,6 @@ const Home = () => {
       <Header/>
       <ServicesSection/>
       <CustomersSection/>
-      <div style={{height: "200vh"}}>
-      </div>
       <Footer/>
     </React.Fragment>
   );

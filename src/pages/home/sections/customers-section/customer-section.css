@@ -1,0 +1,26 @@
+.customers-component{
+  padding: auto 60px ;
+}
+
+.customer-logos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  margin: 60px 0;
+}
+
+.customers-grid-item {
+  padding:0 20px 0 0;
+}
+
+.company-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px #ccc;
+  padding: 15px 20px;
+  margin: 8px;
+}
+.company-card-image {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
