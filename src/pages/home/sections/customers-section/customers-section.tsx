@@ -1,6 +1,6 @@
 import React from 'react';
-import './customer-section.css'
-import devshop from './logo.png'
+import './customer-section.css';
+import devshop from './logo.png';
 
 export interface ICompanyCard {
   name: string;
@@ -18,8 +18,8 @@ export const CompanyCard = ( props: ICompanyCard) => {
 
 const clients: ICompanyCard[] = [
   { name: "Lead Construction", image: devshop},
-  { name: "Lead Construction", image: devshop},
-  { name: "Lead Construction", image: devshop}
+  { name: "MK Group", image: devshop},
+  { name: "Devshop", image: devshop}
 ];
 
 const CustomersSection: React.FunctionComponent = () => {

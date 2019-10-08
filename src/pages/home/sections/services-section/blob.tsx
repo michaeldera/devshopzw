@@ -12,15 +12,15 @@ const blobStyle: CSSProperties = {
   position: "absolute",
   zIndex: -1,  
   height: "auto",
-  width:"26rem",
-  minWidth: 300,
+  width:"29rem",
+  minWidth: 340,
 
 }
 
 const blobImage: CSSProperties ={
   display:"block",
   right:0,
-  width:"24rem",
+  width:"26rem",
   minWidth: 300,
 }
 

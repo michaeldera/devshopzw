@@ -1,9 +1,52 @@
+.services-component {
+  text-align: right;
+}
+
+.services-component p {
+  color: #999;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
 .services-wrapper {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 7fr 3fr;
   margin:0;
+  padding: 5rem;
 }
 
 .services-grid-item {
   padding:0 20px 0 0;
 }
+
+.services-grid-wrapper{
+  padding: 60px 0;
+}
+
+.services-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 10px 16px #aaa;
+  margin: 0 2.8rem;
+  padding: 2rem;
+  color: #fff;
+  background-color: #0496FF;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.services-card > div {
+  padding: 28px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.services-icon-container {
+  height: 140px;  
+  padding: 20px 8px;
+}
+.services-icon {
+  display: block;
+  height: 100%;
+  margin:auto;
+}
+
