@@ -26,7 +26,7 @@
 .services-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  box-shadow: 0 10px 16px #aaa;
+  box-shadow: 0 6px 6px #aaa;
   margin: 0 2.8rem;
   padding: 2rem;
   color: #fff;

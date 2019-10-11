@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Source+Sans+Pro&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 36px;
   color: #333;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+  font-size: 28px;
+}
 .section-heading{
   line-height: 1.4
 }
@@ -24,5 +31,6 @@ body {
   color: #fff;
   padding: 10px 30px;
   margin: 30px auto;
+  font-size: 1.2rem;
   border-radius: 50vh;
 }
