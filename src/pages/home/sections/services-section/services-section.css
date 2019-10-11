@@ -56,12 +56,19 @@
     text-align: center;
   }  
   .services-card {
+    padding: 1.2rem;
     grid-template-columns: 1fr 1fr;
   }  
+  .services-card > div {
+    padding: 20px 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 @media only screen and (max-width: 760px) {
   .services-card {
+    padding: 15px;
     grid-template-columns: 1fr;
   }
 }
