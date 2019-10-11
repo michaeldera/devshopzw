@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import './blob.css';
 import bg from './collaborate.jpg'
 import bgBlob from "./blob.svg"
