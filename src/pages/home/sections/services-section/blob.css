@@ -1,7 +1,7 @@
 .services-blob {
+  width: max-content;
   margin: 30px auto; 
   display:block;
-  width: fit-content;
 }
 
 .blog-image {
@@ -16,6 +16,6 @@
   position: absolute;
   z-index: -1;
   height: auto;
-  width:29rem;
+  width:26rem;
   min-width: 340px;
 }

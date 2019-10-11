@@ -3,14 +3,10 @@ import './blob.css';
 import bg from './collaborate.jpg'
 import bgBlob from "./blob.svg"
 
-const style: CSSProperties ={
-  margin: 30, 
-  display:"block"
-}
 
 const ServicesBlob: React.FunctionComponent = () => {
   return (
-    <div style={style} className="services-blob">
+    <div className="services-blob">
       <img className="blob-solid" src={bgBlob} alt=""/>
       <svg className="blog-image" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
         <defs>

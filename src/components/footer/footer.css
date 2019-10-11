@@ -1,6 +1,6 @@
 .footer-component {
   margin: 0;
-  background: #D1EBFF;
+  border-top: 2px solid #eee;
 }
 .footer-content-wrapper {
   box-sizing: border-box;
@@ -22,6 +22,7 @@
 
 .footer-social-icons {
   list-style-type: none;
+  padding: 0;
 }
 
 .footer-social-icons > li {
