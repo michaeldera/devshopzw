@@ -51,27 +51,24 @@
 }
 @media only screen and (max-width: 1200px) {
   .services-wrapper {
-    padding: 4rem ;
+    padding: 2rem ;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }  
+  .services-card {
+    grid-template-columns: 1fr 1fr;
+  }  
+}
+
+@media only screen and (max-width: 760px) {
+  .services-card {
     grid-template-columns: 1fr;
   }
 }
-@media only screen and (max-width: 800px) {
-  .services-component {
-    text-align: center;
-  }
 
-  .services-wrapper {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-
+@media only screen and (max-width: 496px) {
   .services-card {
-    grid-template-columns: 1fr 1fr;
-  }
-} 
-
-@media only screen and (max-width: 480px) {
-  .services-card {
-    grid-template-columns: 1fr;
+    margin: 0;
+    border-radius: 0;
   }
 }

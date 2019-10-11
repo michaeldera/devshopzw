@@ -13,8 +13,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+
 p {
-  font-size: 28px;
+  font-size: 26px;
 }
 .section-heading{
   line-height: 1.4
@@ -43,4 +44,14 @@ p {
 .action-button:hover{
   box-shadow: 1px 3px 3px #ccc;
   transform: translateY(-1px);
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
