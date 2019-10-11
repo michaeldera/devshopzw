@@ -1,8 +1,12 @@
 import React from 'react';
 import ServicesBlob from './blob';
 import './services-section.css';
-import mobile from './mobile.svg';
 import infrastructure from './infrastructure.svg';
+import design from './design.svg';
+import dns from './dns.svg';
+import analytics from './analytics.svg';
+import softwaredev from './dev.svg';
+import seo from './seo.svg';
 
 const ServicesSection: React.FunctionComponent = () => {
   return (
@@ -24,42 +28,42 @@ const ServicesSection: React.FunctionComponent = () => {
         <div className="services-card">
           <div>
             <div className="services-icon-container">
-              <img className="services-icon" src={mobile} alt="" />
+              <img className="services-icon" src={design} alt="" />
             </div>
-            <h3>Software Design and Development</h3>
+            <h3>Software Design</h3>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
           </div>
           <div>
             <div className="services-icon-container">
-              <img className="services-icon" src={infrastructure} alt="" />
+              <img className="services-icon" src={softwaredev} alt="" />
             </div>
-            <h3>Server and Cloud Migration</h3>  
+            <h3>Software Development</h3>  
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
             </div>
           <div>
           <div className="services-icon-container">
               <img className="services-icon" src={infrastructure} alt="" />
             </div>
-            <h3>Infrastructure Management</h3>  
+            <h3>Server and Cloud</h3>  
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
             </div>
             <div>
             <div className="services-icon-container">
-              <img className="services-icon" src={mobile} alt="" />
+              <img className="services-icon" src={seo} alt="" />
             </div>
-            <h3>Hosting and Cloud Services</h3>
+            <h3>Search Optimisation</h3>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
           </div>
           <div>
             <div className="services-icon-container">
-              <img className="services-icon" src={infrastructure} alt="" />
+              <img className="services-icon" src={dns} alt="" />
             </div>
             <h3>DNS Management</h3>  
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
             </div>
           <div>
           <div className="services-icon-container">
-              <img className="services-icon" src={infrastructure} alt="" />
+              <img className="services-icon" src={analytics} alt="" />
             </div>
             <h3>Software Consultancy</h3>  
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
