@@ -64,3 +64,10 @@ background-image: linear-gradient(19deg, #fff 0%, #ccc 100%);
   50%   { transform: rotateX(-238deg) rotateY(-238deg) rotateZ(0deg);  }
   100%   {    transform: rotateX(-398deg) rotateY(-398deg) rotateZ(0deg);  }
 }
+
+
+@media only screen and (max-width: 968px) {
+  .cube-component{
+    display: none;
+  }
+}
