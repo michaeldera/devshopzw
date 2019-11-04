@@ -1,5 +1,7 @@
 .footer-component {
   margin: 0;
+  background-color: #333;
+  color:#fff;
   border-top: 2px solid #eee;
 }
 .footer-content-wrapper {
@@ -32,5 +34,5 @@
 
 .footer-social-icons > li > a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
