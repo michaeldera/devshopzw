@@ -15,9 +15,9 @@ const ServicesSection: React.FunctionComponent = () => {
         <div className="services-grid-item">
           <div className="services-grid-wrapper">
             <h1 className="section-heading">End to End Software Services </h1>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
-            <p>Wed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <p>Reinvent the way your organisation operates. Put software at the core of this reinvention with the assurance of years of experience to get you started and keep you going.</p>
+            <p>Make innovation a continous process for your organisation, leverage on knowledge that is driving many organisations to meet their objectives with greater efficiency</p>
+            <p>Realise real value from your investment in software to discover business insights to empower your decision-making.</p>
             <a className="action-button" href="mailto:info@devshop.co.zw">Contact Us</a>
           </div>
         </div>
