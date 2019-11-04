@@ -32,42 +32,42 @@ const ServicesSection: React.FunctionComponent = () => {
               <img className="services-icon" src={design} alt="" />
             </div>
             <h3>Software Design</h3>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            Transform business process into software solutions that makes the best of the practise you have masterd over time. 
           </div>
           <div>
             <div className="services-icon-container">
               <img className="services-icon" src={softwaredev} alt="" />
             </div>
             <h3>Software Development</h3>  
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            Business processes delivered through quality and efficient software solution. Stand on the shoulders of years of experience and reliable delivery.
             </div>
           <div>
           <div className="services-icon-container">
               <img className="services-icon" src={infrastructure} alt="" />
             </div>
-            <h3>Server and Cloud</h3>  
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            <h3>Managed Infrastructure</h3>  
+            Develop applications without concering yourself with the overhead associated with infrastructure provisioning and management.
             </div>
             <div>
             <div className="services-icon-container">
               <img className="services-icon" src={seo} alt="" />
             </div>
             <h3>Search Optimisation</h3>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            Be at the forefront of the conversations and reach potential customers and clients ahead of your competitors. 
           </div>
           <div>
             <div className="services-icon-container">
               <img className="services-icon" src={dns} alt="" />
             </div>
             <h3>DNS Management</h3>  
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            Improve perfomance and uptime of your global software services to ensure they are always available when needed.
             </div>
           <div>
           <div className="services-icon-container">
               <img className="services-icon" src={analytics} alt="" />
             </div>
             <h3>Software Consultancy</h3>  
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+             Leverage on a wealth of experience in key  areas to make the most of your investment in software solutions.
             </div>
         </div>
       </div>
