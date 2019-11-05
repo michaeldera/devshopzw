@@ -21,7 +21,7 @@
   margin: 8px;
 }
 .company-card-image {
-  width: 50%;
+  max-height: 4rem;
   display: block;
   margin: auto;
 }
