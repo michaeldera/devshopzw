@@ -3,7 +3,8 @@ import './customer-section.css';
 import devshop from './logo.png';
 import makata from './makata.svg';
 import s3media from './s3media.png';
-import lead from './lead.jpeg'
+import lead from './lead.jpeg';
+import fst from './fst.jpg'
 
 export interface ICompanyCard {
   name: string;
@@ -23,7 +24,8 @@ const clients: ICompanyCard[] = [
   { name: "Lead Construction", image: lead },
   { name: "MK Group", image: makata },
   { name: "S3 Media", image: s3media }, 
-  { name: "Sidewalk", image: devshop }
+  { name: "Sidewalk", image: devshop },
+  { name: "First Source Technology", image: fst }
 ];
 
 const CustomersSection: React.FunctionComponent = () => {

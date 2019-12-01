@@ -17,11 +17,11 @@
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 4px #ddd;
-  padding: 14px;
+  padding: 24px 14px;
   margin: 8px;
 }
 .company-card-image {
-  max-height: 4rem;
+  max-height:3.2rem;
   display: block;
   margin: auto;
 }
