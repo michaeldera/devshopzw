@@ -1,23 +1,41 @@
 import React from 'react';
-import "./footer.css";
+import {PrimaryButton} from '@fluentui/react';
 
-const Footer = () => {
+const Footer: React.FunctionComponent = () => {
+
+  const style : React.CSSProperties = {
+    margin: 0, 
+    backgroundColor: "#333", 
+    color:"#fff", 
+    borderTop: "2px solid #eee", 
+  }
+
+  const wrapper : React.CSSProperties = {
+    boxSizing: "border-box",
+    display: "flex",
+    minHeight: "40vh",
+    width: "100%",
+  }
+
+  const content : React.CSSProperties = {
+    margin: "auto",
+    textAlign: "center",
+    zIndex: 2
+  }
+
+  const navigation : React.CSSProperties = {
+    padding: "2px 10%", 
+    textAlign: "center"
+  }
+
+
   return (
-    <footer className="footer-component">
-      <div className="footer-content-wrapper">
-        <div className="footer-content">
+    <footer style={style}>
+      <div style={wrapper}>
+        <div style={content}>
           <h1 className="footer-call-to-action">Start Building Today?</h1>
-          <a className="action-button" href="tel:+2638644241936">Make the Call</a>
+          <PrimaryButton text="Make the call" href="tel:+2638644241936"/>
         </div>
-      </div>
-      <div className="footer-navigation">
-        <ul className="footer-social-icons">
-          <li><a href="#github">Github</a></li>
-          <li><a href="#github">Twitter</a></li>
-          <li><a href="#github">Medium</a></li>
-          <li><a href="#github">LinkedIn</a></li>
-          <li><a href="#github">Facebook</a></li>
-        </ul>
       </div>
     </footer>
   )

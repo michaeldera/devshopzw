@@ -7,6 +7,7 @@ import dns from './dns.svg';
 import analytics from './analytics.svg';
 import softwaredev from './dev.svg';
 import seo from './seo.svg';
+import { PrimaryButton } from '@fluentui/react';
 
 const ServicesSection: React.FunctionComponent = () => {
   return (
@@ -18,7 +19,7 @@ const ServicesSection: React.FunctionComponent = () => {
             <p>Reinvent the way your organisation operates. Put software at the core of this reinvention with the assurance of years of experience to get you started and keep you going.</p>
             <p>Make innovation a continous process for your organisation, leverage on knowledge that is driving many organisations to meet their objectives with greater efficiency</p>
             <p>Realise real value from your investment in software to discover business insights to empower your decision-making.</p>
-            <a className="action-button" href="mailto:info@devshop.co.zw">Contact Us</a>
+            <PrimaryButton text="Contact Us" href="mailto:info@devshop.co.zw"/>
           </div>
         </div>
         <div className="services-grid-item">
